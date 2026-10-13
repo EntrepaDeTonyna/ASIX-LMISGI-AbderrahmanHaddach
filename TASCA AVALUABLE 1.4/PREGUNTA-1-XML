@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<factura numero="0001">
+  <capcalera>
+    <data>2022-10-21</data>
+    <comanda>1</comanda>
+    <formaPagament>EFECTIU</formaPagament>
+  </capcalera>
+
+  <emissor>
+    <nom>Empresa Fictícia</nom>
+    <cif>Q2826000</cif>
+    <adreca>
+      <carrer>Carrer Desconegut, 1</carrer>
+      <codiPostal>07001</codiPostal>
+      <poblacio>Palma</poblacio>
+    </adreca>
+    <telefon>971123456</telefon>
+    <fax>971987654</fax>
+  </emissor>
+
+  <client numero="001">
+    <nom>Carles Canals Gozálvez</nom>
+    <adrecaEnviament>
+      <carrer>Carrer Major, 1</carrer>
+      <codiPostal>07300</codiPostal>
+      <poblacio>Inca</poblacio>
+      <provincia>Illes Balears</provincia>
+    </adrecaEnviament>
+  </client>
+
+  <linies>
+    <linia>
+      <referencia>MII001F</referencia>
+      <descripcio>MICRO PENTIUM IV 3000MHZ</descripcio>
+      <quantitat>1</quantitat>
+      <preu moneda="EUR">250.00</preu>
+      <iva>16.0</iva>
+      <import moneda="EUR">266.80</import>
+    </linia>
+    <linia>
+      <referencia>MB003</referencia>
+      <descripcio>PLACA BASE QDI P4</descripcio>
+      <quantitat>1</quantitat>
+      <preu moneda="EUR">180.00</preu>
+      <iva>16.0</iva>
+      <import moneda="EUR">208.80</import>
+    </linia>
+    <linia>
+      <referencia>MED876</referencia>
+      <descripcio>DIMM DDR 512MB 3200</descripcio>
+      <quantitat>2</quantitat>
+      <preu moneda="EUR">40.00</preu>
+      <iva>16.0</iva>
+      <import moneda="EUR">92.80</import>
+    </linia>
+    <linia>
+      <referencia>HD250G</referencia>
+      <descripcio>DISC DUR 250GB S-ATA 7200</descripcio>
+      <quantitat>4</quantitat>
+      <preu moneda="EUR">120.00</preu>
+      <iva>16.0</iva>
+      <import moneda="EUR">556.80</import>
+    </linia>
+  </linies>
+
+  <totals moneda="EUR">
+    <baseImposable>990.00</baseImposable>
+    <percentatgeIva>16.0</percentatgeIva>
+    <totalIva>155.20</totalIva>
+    <totalFactura>1145.20</totalFactura>
+  </totals>
+</factura>
