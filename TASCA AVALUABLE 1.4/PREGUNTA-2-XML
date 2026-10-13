@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<correu>
+  <capcalera>
+    <assumpte>Notes de la presentació d'ahir</assumpte>
+    <remitent>
+      <nom>Carles Canals</nom>
+      <adreca>cgc@paucasesnovescifp.cat</adreca>
+    </remitent>
+    <destinataris>
+      <destinatari tipus="per">
+        <nom>Per a mi</nom>
+      </destinatari>
+      <destinatari tipus="copia">
+        <nom>Alumnat</nom>
+        <adreca>alumnat@paucasesnovescifp.cat</adreca>
+      </destinatari>
+    </destinataris>
+  </capcalera>
+
+  <cos>
+    <salutacio>Bon dia!</salutacio>
+    <missatge>Gràcies per la vostra assistència a la presentació d'ahir sobre els continguts de l'assignatura. Espere haver resolt els vostres dubtes. Adjuntes, estan les meues notes sobre la presentació, per si desitgeu compartir-les amb els alumnes que no han pogut assistir.</missatge>
+    <tancament>¡Gràcies a tots i totes!</tancament>
+    <firma>
+      <nom>Carles Canals</nom>
+      <carrec>Professor del Departament d'Informàtica del CIFP Pau Casesnoves</carrec>
+    </firma>
+  </cos>
+
+  <adjunts>
+    <adjunt>
+      <nomFitxer>notes-presentacio.pdf</nomFitxer>
+      <tipus>application/pdf</tipus>
+      <mida unitat="KB">30</mida>
+    </adjunt>
+  </adjunts>
+</correu>
