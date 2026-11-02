@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Receptes de cuina</title>
+<style>
+  /* ===== Paleta: blau fosc, blau clar i crema ===== */
+
+  /* Color de fons de la pàgina */
+  body {
+    background-color: #FFFFEF;
+    color: #222222;
+    font-size: 16px;
+  }
+
+  /* Color als rètols/texts informatius + mides de lletra + vora */
+  h1 {
+    color: #00008B;
+    background-color: #87CEFA;
+    text-align: center;
+    font-size: 2.2em;
+    border: 2px solid red;
+  }
+  h2 {
+    color: #0000FF;
+    background-color: #87CEFA;
+    font-size: 1.5em;
+    border: 2px solid red;
+  }
+
+  /* Combinació de mides de lletra segons els elements */
+  p {
+    font-size: 18px;
+  }
+  figcaption {
+    font-size: 14px;
+    font-style: italic;
+  }
+
+  /* Taula: títol i capçalera */
+  caption {
+    color: #0000FF;
+    font-size: 1.3em;
+    margin-bottom: 6px;
+  }
+  th {
+    background-color: #00008B;
+    color: #FFFFFF;
+  }
+  td, th {
+    border: 1px solid #00008B;
+    padding: 4px 10px;
+  }
+
+  /* Alternança de colors a les files (només tbody, la capçalera no s'afecta) */
+  /* Files parelles */
+  tbody tr:nth-child(even) {
+    background-color: #B3D9FF;
+  }
+  /* Files senars */
+  tbody tr:nth-child(odd) {
+    background-color: #FFFF99;
+  }
+
+  /* Enllaços */
+  /* Enllaç no visitat */
+  a:link {
+    color: #0000FF;
+  }
+  /* Enllaç visitat */
+  a:visited {
+    color: #800080;
+  }
+
+  /* Tipus de llista + gruix i color de vora */
+  /* Llista no ordenada: quadrats i vora vermella de 2px */
+  ul {
+    list-style-type: square;
+    border: 2px solid red;
+  }
+  /* Llista ordenada: números romans */
+  ol {
+    list-style-type: upper-roman;
+    border: 2px solid #00008B;
+  }
+</style>
+</head>
+<body>
+<header>
+<h1>Les millors receptes</h1>
+<p>Cuina casolana i tradició</p>
+</header>
+<section>
+<h2>Ingredients de la paella</h2>
+<ul>
+<li>Arròs</li>
+<li>Pollastre</li>
+<li>Tomàquet</li>
+</ul>
+<figure>
+<img src="Imatge/paella_valenciana.jpg" width="400" alt="Paella valenciana">
+<figcaption>Paella valenciana tradicional</figcaption>
+</figure>
+<table>
+  <caption>Taula d'informació sobre les receptes</caption>
+  <thead>
+    <tr><th>Recepta</th><th>Temps</th><th>Dificultat</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Paella valenciana</td><td>60 min</td><td>Mitjana</td></tr>
+    <tr><td>Truita de patates</td><td>30 min</td><td>Fàcil</td></tr>
+    <tr><td>Crema catalana</td><td>45 min</td><td>Fàcil</td></tr>
+  </tbody>
+</table>
+</section>
+<section>
+<h2>Passos de preparació</h2>
+<ol>
+<li>Sofregir el pollastre.</li>
+<li>Afegir el tomàquet.</li>
+<li>Incorporar l'arròs i el brou.</li>
+</ol>
+</section>
+<a href="https://www.receptes.cat" target="_blank" rel="noopener noreferrer">Més receptes</a>
+<footer>
+<p>Autora: Maria García · 2025</p>
+</footer>
+</body>
+</html>
