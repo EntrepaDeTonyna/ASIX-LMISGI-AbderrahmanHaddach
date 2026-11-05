@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tecnologia | Notícies 2025</title>
+
+    <link rel="shortcut icon" href="imagenes/favicon.svg">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <!-- Capçalera -->
+    <header class="capcalera">
+        <h1>NOTÍCIES <span>2025</span></h1>
+        <p>Un any per recordar</p>
+    </header>
+
+    <!-- Menú de navegació -->
+    <nav class="menu">
+        <a href="index.html">Inici</a>
+        <a href="tecnologia.html">Tecnologia</a>
+        <a href="deportes.html">Esports</a>
+        <a href="ciencia.html">Ciència</a>
+        <a href="medioambiente.html">Medi ambient</a>
+    </nav>
+
+    <!-- Contingut principal -->
+    <main class="contenidor">
+
+        <section>
+            <p class="etiqueta">ACTUALITAT TECNOLÒGICA · 2025</p>
+
+            <h2>Un any marcat per la intel·ligència artificial</h2>
+
+            <p>
+                El 2025 ha estat un any important per a la tecnologia,
+                especialment per l'evolució de la intel·ligència
+                artificial i la seva regulació.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Primera notícia -->
+        <section class="noticia">
+            <h2>DeepSeek-R1 revoluciona la intel·ligència artificial</h2>
+
+            <p><strong>20 de gener de 2025</strong></p>
+
+            <p>
+                L'empresa DeepSeek va presentar el model
+                d'intel·ligència artificial DeepSeek-R1.
+                Aquest model destaca per les seves capacitats
+                de raonament, matemàtiques i programació.
+            </p>
+
+            <p>
+                Una de les seves característiques principals
+                és que els seus pesos es van publicar amb
+                llicència MIT, facilitant-ne l'ús i l'estudi
+                per part de la comunitat tecnològica.
+            </p>
+
+            <p>
+                Font:
+                <a href="https://deepseek.com/en/news/deepseek-r1/"
+                   target="_blank">
+                    Anunci oficial de DeepSeek
+                </a>
+            </p>
+        </section>
+
+        <!-- Segona notícia -->
+        <section class="noticia">
+            <h2>La Unió Europea comença a aplicar la Llei d'IA</h2>
+
+            <p><strong>2 de febrer de 2025</strong></p>
+
+            <p>
+                La Unió Europea va començar a aplicar les primeres
+                normes de la Llei d'Intel·ligència Artificial.
+                Aquesta normativa estableix limitacions per a
+                determinats usos de la IA i promou un ús responsable.
+            </p>
+
+            <p>
+                També introdueix obligacions relacionades amb
+                la formació i el coneixement sobre intel·ligència
+                artificial.
+            </p>
+
+            <p>
+                Font:
+                <a href="https://digital-strategy.ec.europa.eu/en/news/first-rules-artificial-intelligence-act-are-now-applicable"
+                   target="_blank">
+                    Comissió Europea
+                </a>
+            </p>
+        </section>
+
+        <!-- Conceptes tecnològics -->
+        <section>
+            <h2>Conceptes importants</h2>
+
+            <ul>
+                <li>
+                    <strong>IA:</strong> intel·ligència artificial,
+                    tecnologia que permet realitzar tasques
+                    que normalment requereixen intel·ligència humana.
+                </li>
+
+                <li>
+                    <strong>Programari:</strong> conjunt de programes
+                    que permeten funcionar a un ordinador.
+                </li>
+
+                <li>
+                    <strong>Open source:</strong> programari amb
+                    codi font disponible segons les condicions
+                    de la seva llicència.
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <!-- Peu de pàgina -->
+    <footer class="peu">
+        <p>NOTÍCIES 2025</p>
+        <p>Projecte de llenguatge de marques · HTML5 i CSS3</p>
+    </footer>
+
+</body>
+</html>
