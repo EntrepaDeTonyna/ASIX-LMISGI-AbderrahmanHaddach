@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ciència | Notícies 2025</title>
+
+    <link rel="shortcut icon" href="imagenes/favicon.svg">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <!-- Capçalera -->
+    <header class="capcalera">
+        <h1>NOTÍCIES <span>2025</span></h1>
+        <p>Un any per recordar</p>
+    </header>
+
+    <!-- Menú de navegació -->
+    <nav class="menu">
+        <a href="index.html">Inici</a>
+        <a href="tecnologia.html">Tecnologia</a>
+        <a href="deportes.html">Esports</a>
+        <a href="ciencia.html">Ciència</a>
+        <a href="medioambiente.html">Medi ambient</a>
+    </nav>
+
+    <!-- Contingut principal -->
+    <main class="contenidor">
+
+        <section>
+            <p class="etiqueta">ACTUALITAT CIENTÍFICA · 2025</p>
+
+            <h2>Nous descobriments sobre l'univers</h2>
+
+            <p>
+                Durant el 2025, diferents missions espacials
+                i investigacions científiques han aportat
+                informació important sobre el nostre planeta
+                i l'univers.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Primera notícia -->
+        <section class="noticia">
+            <h2>La NASA descobreix nous compostos orgànics a Mart</h2>
+
+            <p><strong>12 de maig de 2025</strong></p>
+
+            <p>
+                El vehicle explorador Curiosity de la NASA
+                va detectar les molècules orgàniques més grans
+                identificades fins ara a Mart.
+            </p>
+
+            <p>
+                Aquest descobriment ajuda els científics
+                a estudiar la química del planeta i el seu
+                passat, encara que no demostra l'existència
+                de vida.
+            </p>
+
+            <p>
+                Font:
+                <a href="https://science.nasa.gov/"
+                   target="_blank">
+                    NASA Science
+                </a>
+            </p>
+        </section>
+
+        <!-- Segona notícia -->
+        <section class="noticia">
+            <h2>La NASA celebra 25 anys d'activitat humana a l'espai</h2>
+
+            <p><strong>2 de novembre de 2025</strong></p>
+
+            <p>
+                L'Estació Espacial Internacional va arribar
+                als 25 anys de presència humana continuada.
+                Des de l'any 2000, astronautes de diferents
+                països han treballat conjuntament en
+                investigacions científiques.
+            </p>
+
+            <p>
+                Aquests experiments permeten estudiar
+                fenòmens que no es poden reproduir fàcilment
+                a la Terra.
+            </p>
+
+            <p>
+                Font:
+                <a href="https://www.nasa.gov/"
+                   target="_blank">
+                    NASA
+                </a>
+            </p>
+        </section>
+
+        <!-- Conceptes científics -->
+        <section>
+            <h2>Conceptes científics</h2>
+
+            <p>
+                <abbr title="Estació Espacial Internacional">
+                    EEI
+                </abbr>:
+                laboratori espacial on es realitzen
+                experiments científics.
+            </p>
+
+            <br>
+
+            <p>
+                <abbr title="Agència Espacial Europea">
+                    ESA
+                </abbr>:
+                organització que coordina diferents
+                projectes d'exploració espacial europea.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Peu de pàgina -->
+    <footer class="peu">
+        <p>NOTÍCIES 2025</p>
+        <p>Projecte de llenguatge de marques · HTML5 i CSS3</p>
+    </footer>
+
+</body>
+</html>
