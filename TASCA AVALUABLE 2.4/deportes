@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Esports | Notícies 2025</title>
+
+    <link rel="shortcut icon" href="imagenes/favicon.svg">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <!-- Capçalera -->
+    <header class="capcalera">
+        <h1>NOTÍCIES <span>2025</span></h1>
+        <p>Un any per recordar</p>
+    </header>
+
+    <!-- Menú de navegació -->
+    <nav class="menu">
+        <a href="index.html">Inici</a>
+        <a href="tecnologia.html">Tecnologia</a>
+        <a href="deportes.html">Esports</a>
+        <a href="ciencia.html">Ciència</a>
+        <a href="medioambiente.html">Medi ambient</a>
+    </nav>
+
+    <!-- Contingut principal -->
+    <main class="contenidor">
+
+        <section>
+            <p class="etiqueta">ACTUALITAT ESPORTIVA · 2025</p>
+
+            <h2>Un any ple de grans moments esportius</h2>
+
+            <p>
+                El 2025 ha estat un any destacat per a l'esport
+                internacional, amb grans competicions,
+                nous campions i rècords històrics.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Primera notícia -->
+        <section class="noticia">
+            <h2>El PSG guanya la seva primera Champions League</h2>
+
+            <p><strong>31 de maig de 2025</strong></p>
+
+            <p>
+                El Paris Saint-Germain va aconseguir la seva
+                primera Lliga de Campions després de derrotar
+                l'Inter de Milà per 5-0 a la final disputada
+                a Munic.
+            </p>
+
+            <p>
+                Aquesta victòria va suposar un moment històric
+                per al club francès.
+            </p>
+
+            <p>
+                Font:
+                <a href="https://www.uefa.com/uefachampionsleague/"
+                   target="_blank">
+                    UEFA Champions League
+                </a>
+            </p>
+        </section>
+
+        <!-- Segona notícia -->
+        <section class="noticia">
+            <h2>Anglaterra guanya l'Eurocopa femenina</h2>
+
+            <p><strong>27 de juliol de 2025</strong></p>
+
+            <p>
+                La selecció anglesa va guanyar l'Eurocopa femenina
+                després de superar Espanya a la final.
+                El partit va acabar amb empat i es va decidir
+                a la tanda de penals.
+            </p>
+
+            <p>
+                Anglaterra va aconseguir així el seu segon
+                títol consecutiu en aquesta competició.
+            </p>
+
+            <p>
+                Font:
+                <a href="https://www.uefa.com/womenseuro/"
+                   target="_blank">
+                    UEFA Women's EURO
+                </a>
+            </p>
+        </section>
+
+        <!-- Taula de competicions -->
+        <section>
+            <h2>Competicions destacades de 2025</h2>
+
+            <table>
+                <tr>
+                    <th>Competició</th>
+                    <th>Esport</th>
+                    <th>Guanyador</th>
+                </tr>
+
+                <tr>
+                    <td>Champions League</td>
+                    <td>Futbol</td>
+                    <td>PSG</td>
+                </tr>
+
+                <tr>
+                    <td>Eurocopa femenina</td>
+                    <td>Futbol</td>
+                    <td>Anglaterra</td>
+                </tr>
+
+                <tr>
+                    <td>Wimbledon</td>
+                    <td>Tenis</td>
+                    <td>Jannik Sinner</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Citació -->
+        <section>
+            <blockquote>
+                L'esport és molt més que competir:
+                també representa esforç, superació i treball en equip.
+            </blockquote>
+            <p><cite>Reflexió sobre l'esport</cite></p>
+        </section>
+
+    </main>
+
+    <!-- Peu de pàgina -->
+    <footer class="peu">
+        <p>NOTÍCIES 2025</p>
+        <p>Projecte de llenguatge de marques · HTML5 i CSS3</p>
+    </footer>
+
+</body>
+</html>
