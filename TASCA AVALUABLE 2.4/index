@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <!-- Configuració bàsica de la pàgina -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Títol que apareixerà a la pestanya -->
+    <title>Notícies 2025 | Actualitat de l'any</title>
+
+    <!-- Icona de la pàgina -->
+    <link rel="shortcut icon" href="imagenes/favicon.svg">
+
+    <!-- Enllaç al full d'estils CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <!-- Capçalera principal -->
+    <header class="capcalera">
+        <div class="contenidor">
+            <h1>NOTÍCIES <span>2025</span></h1>
+            <p>Un any ple d'esdeveniments que han marcat el món</p>
+        </div>
+    </header>
+
+    <!-- Menú de navegació entre les cinc pàgines -->
+    <nav class="menu">
+        <a href="index.html">Inici</a>
+        <a href="tecnologia.html">Tecnologia</a>
+        <a href="deportes.html">Esports</a>
+        <a href="ciencia.html">Ciència</a>
+        <a href="medioambiente.html">Medi ambient</a>
+    </nav>
+
+    <!-- Contingut principal de la pàgina -->
+    <main class="contenidor">
+
+        <!-- Presentació del projecte -->
+        <section id="inici">
+            <h2>Les notícies més destacades del 2025</h2>
+
+            <p>
+                Benvinguts a Notícies 2025, un espai dedicat a recopilar
+                alguns dels esdeveniments més importants de l'any.
+                Trobaràs informació sobre tecnologia, esports,
+                ciència i medi ambient.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Articles amb les diferents categories -->
+        <section id="destacades">
+
+            <h2>Categories destacades</h2>
+
+            <article class="noticia">
+                <h3>Tecnologia</h3>
+                <p>
+                    Els avenços en intel·ligència artificial han continuat
+                    transformant la societat i el món digital.
+                </p>
+                <a href="tecnologia.html">Llegir més</a>
+            </article>
+
+            <article class="noticia">
+                <h3>Esports</h3>
+                <p>
+                    El món de l'esport ha viscut grans competicions
+                    i moments destacats durant el 2025.
+                </p>
+                <a href="deportes.html">Llegir més</a>
+            </article>
+
+            <article class="noticia">
+                <h3>Ciència</h3>
+                <p>
+                    Les missions espacials i els descobriments científics
+                    han continuat ampliant els límits del coneixement.
+                </p>
+                <a href="ciencia.html">Llegir més</a>
+            </article>
+
+            <article class="noticia">
+                <h3>Medi ambient</h3>
+                <p>
+                    El canvi climàtic i la protecció del planeta
+                    han continuat sent temes importants.
+                </p>
+                <a href="medioambiente.html">Llegir més</a>
+            </article>
+
+        </section>
+
+        <hr>
+
+        <!-- Llista de temes tractats al web -->
+        <section id="temes">
+            <h2>Què trobaràs en aquesta web?</h2>
+
+            <ul>
+                <li>Notícies sobre intel·ligència artificial.</li>
+                <li>Resultats i esdeveniments esportius.</li>
+                <li>Descobriments científics.</li>
+                <li>Informació sobre el canvi climàtic.</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Taula amb les categories informatives -->
+        <section id="taula">
+            <h2>Resum de les categories</h2>
+
+            <table>
+                <tr>
+                    <th>Categoria</th>
+                    <th>Tema principal</th>
+                    <th>Any</th>
+                </tr>
+
+                <tr>
+                    <td>Tecnologia</td>
+                    <td>Intel·ligència artificial</td>
+                    <td>2025</td>
+                </tr>
+
+                <tr>
+                    <td>Esports</td>
+                    <td>Competicions esportives</td>
+                    <td>2025</td>
+                </tr>
+
+                <tr>
+                    <td>Ciència</td>
+                    <td>Exploració espacial</td>
+                    <td>2025</td>
+                </tr>
+
+                <tr>
+                    <td>Medi ambient</td>
+                    <td>Canvi climàtic</td>
+                    <td>2025</td>
+                </tr>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Exemple d'abreviatura i citació -->
+        <section id="citacio">
+            <h2>Una reflexió sobre el futur</h2>
+
+            <p>
+                La <abbr title="Intel·ligència Artificial">IA</abbr>
+                és una de les tecnologies més importants actualment.
+            </p>
+
+            <blockquote>
+                El coneixement científic i la innovació tecnològica
+                són fonamentals per construir el futur.
+            </blockquote>
+
+            <p>
+                Font de consulta:
+                <cite>Organització de les Nacions Unides</cite>
+            </p>
+
+            <a href="https://www.un.org/es/" target="_blank">
+                Visitar la pàgina de l'ONU
+            </a>
+        </section>
+
+    </main>
+
+    <!-- Peu de pàgina -->
+    <footer class="peu">
+        <p>Projecte de llenguatge de marques - Notícies 2025</p>
+        <p>Creat amb HTML5 i CSS3</p>
+    </footer>
+
+</body>
+</html>
