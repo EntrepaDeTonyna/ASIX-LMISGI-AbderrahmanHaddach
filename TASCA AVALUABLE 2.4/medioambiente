@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Medi ambient | Notícies 2025</title>
+
+    <link rel="shortcut icon" href="imagenes/favicon.svg">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <!-- Capçalera -->
+    <header class="capcalera">
+        <h1>NOTÍCIES <span>2025</span></h1>
+        <p>Un any per recordar</p>
+    </header>
+
+    <!-- Menú de navegació -->
+    <nav class="menu">
+        <a href="index.html">Inici</a>
+        <a href="tecnologia.html">Tecnologia</a>
+        <a href="deportes.html">Esports</a>
+        <a href="ciencia.html">Ciència</a>
+        <a href="medioambiente.html">Medi ambient</a>
+    </nav>
+
+    <!-- Contingut principal -->
+    <main class="contenidor">
+
+        <section>
+            <p class="etiqueta">ACTUALITAT AMBIENTAL · 2025</p>
+
+            <h2>El planeta davant els reptes del canvi climàtic</h2>
+
+            <p>
+                Durant el 2025, el canvi climàtic, la contaminació
+                i la protecció de la biodiversitat han continuat
+                sent qüestions importants a escala mundial.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Primera notícia -->
+        <section class="noticia">
+            <h2>La COP30 reuneix els líders mundials al Brasil</h2>
+
+            <p><strong>10 - 21 de novembre de 2025</strong></p>
+
+            <p>
+                La ciutat de Belém, al Brasil, va acollir
+                la COP30, la conferència de les Nacions Unides
+                sobre el canvi climàtic.
+            </p>
+
+            <p>
+                Els països participants van debatre mesures
+                per reduir les emissions, protegir els boscos
+                i augmentar el finançament per adaptar-se
+                als efectes del canvi climàtic.
+            </p>
+
+            <p>
+                Font:
+                <a href="https://www.un.org/es/climatechange"
+                   target="_blank">
+                    Nacions Unides
+                </a>
+            </p>
+        </section>
+
+        <!-- Segona notícia -->
+        <section class="noticia">
+            <h2>La contaminació per plàstics continua sent un repte mundial</h2>
+
+            <p><strong>Juny de 2025</strong></p>
+
+            <p>
+                El Dia Mundial del Medi Ambient de 2025
+                es va centrar en la contaminació per plàstics.
+                Milers d'activitats es van organitzar arreu
+                del món per promoure solucions i reduir
+                els residus plàstics.
+            </p>
+
+            <p>
+                La iniciativa va recordar la importància
+                de reduir els plàstics d'un sol ús i millorar
+                els sistemes de reciclatge.
+            </p>
+
+            <p>
+                Font:
+                <a href="https://www.unep.org/"
+                   target="_blank">
+                    Programa de les Nacions Unides per al Medi Ambient
+                </a>
+            </p>
+        </section>
+        
+        <!-- Vídeo sobre la contaminació per plàstics -->
+        <section class="noticia">
+
+        <h2>Vídeo: Combatre la contaminació per plàstics</h2>
+
+        <p>
+         Un vídeo del Programa de les Nacions Unides
+         per al Medi Ambient sobre la importància
+         de reduir la contaminació per plàstics.
+        </p>
+
+    <div class="video">
+       
+        <iframe
+            src="https://www.youtube.com/embed/eqapZ8obCGs"
+            title="Vídeo sobre la contaminació per plàstics"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+
+    </div>
+
+</section>
+
+        <!-- Accions per protegir el planeta -->
+        <section>
+            <h2>Com podem protegir el medi ambient?</h2>
+
+            <ol>
+                <li>Reduir el consum de plàstics.</li>
+                <li>Estalviar aigua i energia.</li>
+                <li>Utilitzar el transport públic.</li>
+                <li>Separar correctament els residus.</li>
+                <li>Protegir els espais naturals.</li>
+            </ol>
+        </section>
+
+    </main>
+
+    <!-- Peu de pàgina -->
+    <footer class="peu">
+        <p>NOTÍCIES 2025</p>
+        <p>Projecte de llenguatge de marques · HTML5 i CSS3</p>
+    </footer>
+
+</body>
+</html>
