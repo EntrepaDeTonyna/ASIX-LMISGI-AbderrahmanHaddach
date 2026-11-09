@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La meva pàgina web</title>
+
+    <!-- Enllaç al full d'estils extern -->
+    <link rel="stylesheet" href="estil.css">
+</head>
+
+<body>
+
+    <!-- Contenidor principal -->
+    <main class="contenidor">
+
+        <!-- Capçalera i menú -->
+        <header>
+            <div class="logo">LOGO</div>
+
+            <nav>
+                <a href="#inici">HOME PAGE</a>
+                <a href="#sobre-mi">ABOUT ME</a>
+                <a href="#ofertes">OFFERS</a>
+                <a href="#contacte">CONTACT</a>
+            </nav>
+        </header>
+
+        <!-- Presentació principal -->
+        <section class="hero" id="inici">
+
+            <div class="hero-imatge">
+                <!-- Imatge principal -->
+                <img src="img/principal.jfif" alt="Imatge principal">
+            </div>
+
+            <div class="hero-text">
+                <h1>[ EL TEU NOM ]</h1>
+                <p>Breu descripció de la pàgina web</p>
+                <a href="#ofertes" class="boto">Compra</a>
+            </div>
+
+        </section>
+
+        <!-- Secció sobre nosaltres -->
+        <section class="sobre-mi" id="sobre-mi">
+
+            <div class="sobre-imatge">
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <!-- Imatge secundària -->
+                <img src="img/about.jfif" alt="Imatge secundària">
+            </div>
+
+            <div class="sobre-text">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nunc diam nisl, blandit quis nulla nec, lobortis suscipit
+                    justo. Sed pharetra maximus eros. Sed ut lectus dui.
+                    Aenean efficitur at arcu eu pharetra.
+                </p>
+
+                <ol>
+                    <li>Aenean sagittis lacinia tincidunt.</li>
+                    <li>Aliquam ultricies tempor convallis.</li>
+                    <li>Nullam a nulla eget felis ultrices accumsan quis non velit.</li>
+                    <li>Proin eget est ac justo suscipit dapibus et vitae odio.</li>
+                    <li>Ut imperdiet ultricies quam.</li>
+                </ol>
+
+                <a href="#contacte" class="boto">Contacte</a>
+            </div>
+
+        </section>
+
+        <!-- Secció d'ofertes -->
+        <section class="ofertes" id="ofertes">
+
+            <h2>What we offer</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            <div class="targetes">
+
+                <article class="oferta">
+                    <div class="oferta-imatge"></div>
+                    <img src="img/oferta1.png" alt="Oferta 1">
+                    <div class="oferta-text">
+                        <h3>Oferta 1</h3>
+                        <p>Vivamus eu augue tortor. Integer sed justo ornare.</p>
+                    </div>
+                </article>
+
+                <article class="oferta">
+                    <div class="oferta-imatge"></div>
+                    <img src="img/oferta2.jfif" alt="Oferta 2">
+                    <div class="oferta-text">
+                        <h3>Oferta 2</h3>
+                        <p>Vivamus eu augue tortor. Integer sed justo ornare.</p>
+                    </div>
+                </article>
+
+                <article class="oferta">
+                    <div class="oferta-imatge"></div>
+                    <img src="img/oferta3.jfif" alt="Oferta 3">
+                    <div class="oferta-text">
+                        <h3>Oferta 3</h3>
+                        <p>Vivamus eu augue tortor. Integer sed justo ornare.</p>
+                    </div>
+                </article>
+
+                <article class="oferta">
+                    <div class="oferta-imatge"></div>
+                    <img src="img/oferta4.jfif" alt="Oferta 4">
+                    <div class="oferta-text">
+                        <h3>Oferta 4</h3>
+                        <p>Vivamus eu augue tortor. Integer sed justo ornare.</p>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Formulari de contacte -->
+        <section class="contacte" id="contacte">
+
+            <h2>Need a web?</h2>
+
+            <form>
+
+                <div class="camp">
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" placeholder="Introdueix el nom">
+                    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Introdueix el correu electrònic">
+
+                    <label for="descripcio">Descripció</label>
+                    <textarea id="descripcio"></textarea>
+                </div>
+
+                <div class="camp">
+
+                    <label for="telefon">Telèfon</label>
+                    <input type="tel" id="telefon" placeholder="Introdueix el telefon">
+
+                    <p>Sexe</p>
+
+                    <label><input type="radio" name="sexe"> Home</label>
+                    <label><input type="radio" name="sexe"> Dona</label>
+                    <label><input type="radio" name="sexe"> Altre</label>
+
+                    <p>Com has sabut de mi?</p>
+
+                    <label><input type="checkbox"> Xarxes Socials</label>
+                    <label><input type="checkbox"> Web</label>
+                    <label><input type="checkbox"> Curriculum</label>
+                    <label><input type="checkbox"> Google</label>
+
+                </div>
+
+                <button type="submit" class="boto">Envia</button>
+
+            </form>
+
+        </section>
+
+        <!-- Peu de pàgina -->
+        <footer>
+
+            <div class="logo">LOGO</div>
+
+            <ul>
+                <li>Política de cookies</li>
+                <li>Terminis i condicions</li>
+                <li>Qui som</li>
+                <li>Blog</li>
+            </ul>
+
+            <ul>
+                <li>Ofertes</li>
+                <li>Categories</li>
+                <li>Best sellers</li>
+            </ul>
+
+            <div class="xarxes">
+                Facebook · Instagram · Twitter · TikTok
+            </div>
+
+        </footer>
+
+    </main>
+
+</body>
+</html>
